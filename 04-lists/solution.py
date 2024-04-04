@@ -13,7 +13,10 @@ orte = [
 ]
 wohnort = "Aarberg"
 
-for ort in orte:
+i = 0
+while i < len(orte):
+    ort = orte[i]
+
     if wohnort == ort:
         print("------------------")
         print("Ich wohne in " + ort)

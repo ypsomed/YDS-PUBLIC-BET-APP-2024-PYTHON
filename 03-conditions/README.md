@@ -46,4 +46,4 @@ Prüfe, ob der Wert der Variablen "wohnort" gleich dem Wert von einem Wohnort is
 Wenn ja, gib "Ich wohne in <Wohnort>" aus.
 Wenn nicht, gib "Ich wohne nicht in <Wohnort>" aus.
 
-Du kannst prüfen, ob Werte gleich sind indem du den Vergleichsoperator "==" verwendest.
+Du kannst prüfen, ob Werte gleich sind, indem du den Vergleichsoperator "==" verwendest.
