@@ -15,7 +15,7 @@ anzahl_früchte = 10
 # Man kann natürlich auch einer Variable einen Text zuweisen
 frucht = "Äpfel"
 
-# Ich habe 10 Orangen
+# Ich habe 10 Äpfel
 print("Ich habe")
 # Man kann auch variablen am print Befehl übergeben
 print(anzahl_früchte)
@@ -24,7 +24,7 @@ print(frucht)
 # Jetzt werden 2 Früchte gegessen
 anzahl_früchte = anzahl_früchte - 2
 
-# Ich habe 8 Orangen
+# Ich habe 8 Äpfel
 print("Ich habe")
 print(anzahl_früchte)
 print(frucht)

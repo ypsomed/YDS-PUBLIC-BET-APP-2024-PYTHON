@@ -22,13 +22,13 @@ print(3)
 > Wenn eine Zahl wie 3 keine Anführungszeichen hat, wird diese von Python als sogenannter "Integer" oder
 > einfacher gesagt als eine Zahl wahrgenommen. 
 
-Wenn Python diesen Code ausführt, fängt er auf der ersten Zeile an (Hier **1.**).
-Er führt dann den Befehl auf dieser Zeile aus und geht zur nächsten Zeile (Hier **2.**).
-Dies wiederholt sich bis Python den letzten Befehl ausgeführt hat.
-
 ### Quiz
 
 Was ist der Unterschied zwischen `"3"` und `3`?
+
+Wenn Python diesen Code ausführt, fängt er auf der ersten Zeile an (Hier **1.**).
+Er führt dann den Befehl auf dieser Zeile aus und geht zur nächsten Zeile (Hier **2.**).
+Dies wiederholt sich bis Python den letzten Befehl ausgeführt hat.
 
 ---
 
