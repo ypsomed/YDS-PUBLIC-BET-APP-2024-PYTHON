@@ -46,11 +46,25 @@ Zeichne ein Dreieck
 
 Zeichne einen Stern
 
+![Star](assets/star.png)
+
 #### Tipp
 
 Verwende eine `while` oder `for` schleife
 
-![Star](assets/star.png)
+***
+
+### Kreis
+
+Zeichne einen Kreis mit den `forward()` und `right()` funktionen
+
+![Circle](assets/circle.png)
+
+#### Optional
+
+Mach den Radius konfigurierbar
+
+###
 
 ***
 
@@ -58,8 +72,27 @@ Verwende eine `while` oder `for` schleife
 
 Zeichne einen Baum
 
-#### Tipp
-
-Mit dem `backward()` Befehl kann der Turtle nach hinten fahren
+Mit dem `backward()` Befehl kann der Turtle nach hinten fahren.
 
 ![Tree](assets/tree.png)
+
+#### Tipp
+
+Benutze eine Funktion um den Code nicht zu duplizieren
+
+```python
+def zeichne_ast(ast_laenge):
+    if ast_laenge < 5:
+        # Brich die Funktion ab
+        return
+
+    # TODO: Zeichne eine Linie die ast_laenge gross ist. Drehe nach rechts um den nächsten Ast zu zeichnen.
+    # Hier wird ein ast gezeichnet der 15 Pixel kleiner ist als der letzte.
+    # Dieser Ast soll 25 Grad nach rechts zeigen
+    zeichne_ast(ast_laenge - 15)
+    
+    # TODO: Zeichne den zweiten Ast links
+    zeichne_ast(ast_laenge - 15)
+
+    # TODO: Fahre ast_laenge zurück um den nächsten ast zu zeichnen
+```

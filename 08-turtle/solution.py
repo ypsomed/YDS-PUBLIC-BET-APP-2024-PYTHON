@@ -36,6 +36,18 @@ penup()
 
 clear()
 
+# Zeichnen eines Kreises
+goto(0, 0)
+pendown()
+
+radius = 1
+for _ in range(360):
+    forward(radius)
+    right(1)
+
+penup()
+clear()
+
 # Zeichnen eines Baumes
 goto(0, 0)
 pendown()

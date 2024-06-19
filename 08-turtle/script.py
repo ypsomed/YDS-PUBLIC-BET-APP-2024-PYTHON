@@ -30,6 +30,15 @@ penup()
 
 clear()
 
+# Zeichnen eines Kreises
+goto(0, 0)
+pendown()
+
+# TODO
+
+penup()
+clear()
+
 # Zeichnen eines Baumes
 goto(0, 0)
 pendown()
@@ -37,5 +46,4 @@ pendown()
 # TODO
 
 penup()
-
 done()
