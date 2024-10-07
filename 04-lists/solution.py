@@ -1,25 +1,10 @@
-# Erweitert:
 orte = [
+    "Solothurn",
     "Bern",
     "Zürich",
     "Basel",
-    "Luzern",
-    "Aarberg",
-    "St. Gallen",
-    "Genf",
-    "Lausanne",
-    "Winterthur",
-    "Lugano",
+    "Burgdorf"
 ]
-wohnort = "Aarberg"
 
-i = 0
-while i < len(orte):
-    ort = orte[i]
-
-    if wohnort == ort:
-        print("------------------")
-        print("Ich wohne in " + ort)
-        print("------------------")
-    else:
-        print("Ich wohne nicht in " + ort)
+# Die Orte ausgeben. Um eine Liste anzuzeigen, muss man immer die str() Funktion verwenden
+print(str(orte))

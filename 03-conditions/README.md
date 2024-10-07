@@ -41,9 +41,9 @@ else:
 ## Aufgabe
 
 Erstelle eine Variable mit dem Namen "wohnort" und speichere deinen Wohnort in der Variable.
-Erstelle eine zweite Variable mit "wohnort", wo du den Wert "Berlin" speicherst.
-Prüfe, ob der Wert der Variablen "wohnort" gleich dem Wert von einem Wohnort ist.
-Wenn ja, gib "Ich wohne in <Wohnort>" aus.
-Wenn nicht, gib "Ich wohne nicht in <Wohnort>" aus.
+Erstelle eine zweite Variable namens "wohnort2", wo du den Wert "Berlin" speicherst.
+Prüfe, ob der Wert der Variablen "wohnort" gleich dem Wert der Variable "wohnort2" ist.
+Wenn ja, gib "Ich wohne in <Wohnort2>" aus.
+Wenn nicht, gib "Ich wohne nicht in <Wohnort2>" aus.
 
 Du kannst prüfen, ob Werte gleich sind, indem du den Vergleichsoperator "==" verwendest.
