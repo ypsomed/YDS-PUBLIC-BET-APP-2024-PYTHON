@@ -51,6 +51,59 @@ begruessen(ansprache_mann, benutzer_3)
 Eine Änderung am Begrüssungscode zu machen ist jetzt trivial, da er jetzt nur noch in einer einzigen Funktion vorhanden
 ist.
 
+## Rückgabewerte
+
+Funktionen können nicht nur Werte als Parameter entgegennehmen, sondern auch Werte als Rückgabewerte an den aufrufenden
+Code zurückgeben.
+
+Als beispiel haben wir hier eine Funktion, welche zu einer beliebigen Zahl 1 addiert
+
+```python
+def hinzufuegen(zahl):
+    print(zahl + 1)
+
+
+hinzufuegen(3)  # -> 4
+```
+
+Wenn man zum Beispiel die Funktion mit der Zahl "3" aufruft, wird die Zahl "4" ausgegeben.
+
+Was würde man jetzt aber machen, wenn man
+die Zahl, welche um 1 erhöht wurde, in einer anderen Funktion mal zwei multiplizieren will? Man muss irgendwie das
+Resultat der Funktion an den aufrufenden Code zurückgeben. Dafür kann man einen Rückgabewert verwenden.
+
+Ein rückgabewert wird mithilfe eines `return` Wortes notiert.
+
+```python
+def hinzufuegen(zahl):
+    # Hier wird die Zahl mithilfe von 'return' zurückgegeben
+    return zahl + 1
+
+
+# Hier ist zahl_plus_eins das Resultat der hinzufuegen Funktion
+zahl_plus_eins = hinzufuegen(3)
+print(zahl_plus_eins)  # -> 4
+```
+
+Jetzt können wir ohne Problem eine zweite Funktion erstellen und die zurückgegebene Zahl als Parameter mitgeben.
+
+```python
+def hinzufuegen(zahl):
+    # Hier wird die Zahl mithilfe von 'return' zurückgegeben
+    return zahl + 1
+
+
+def mal_zwei(zahl):
+    return zahl * 2
+
+
+zahl_plus_eins = hinzufuegen(3)
+print(zahl_plus_eins)  # -> 4
+
+zahl_mal_zwei = mal_zwei(zahl_plus_eins)
+print(zahl_mal_zwei)  # -> 8
+```
+
 ## Aufgabe
 
 Erstelle eine Funktion namens login, welche einen Namen als Parameter nimmt. In der Funktion soll überprüft werden, ob

@@ -116,7 +116,7 @@ while wiederholung < grösse_wohnorte_liste:
 
 Erstelle eine Liste mit Namen von Ortschaften. Erstelle eine Schlaufe, die jeden Ort ausgibt.
 Für jeden Ort prüfst du, ob der Ort mit deinem Wohnort übereinstimmt, welchen du ebenfalls in einer Variable speicherst.
-Wenn ja, gib "Ich wohne in <Ort>" auf der Konsole aus.
-Wenn nicht, gib "Ich wohne nicht in <Ort>" auf der Konsole aus.
+Wenn ja, gib "Die Liste enthält meinen Wohnort!" auf der Konsole aus.
+Wenn nicht, gib "Der Wohnort <Ort> ist nicht mein Wohnort" auf der Konsole aus.
 
 Öffne nun die Datei "script.py" und schreibe den Code dort hinein.

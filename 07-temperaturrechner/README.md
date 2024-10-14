@@ -5,7 +5,8 @@ umgekehrt umwandeln kann. Die Applikation soll nach dem Umwandeln weiter verwend
 Umwandlungen anzeigen können.
 
 Erstelle je zwei Umwandlungsfunktionen, welche eine Zahl als Parameter nehmen und dieser zu Grad oder Celsius umwandeln
-und dann in der Konsole ausgeben. Die Formel für die Umwandlung von Fahrenheit zu Celsius und Celsius zu Fahrenheit ist
+und dann als Rückgabewert zurückgeben. Dieser Rückgabewert soll anschliessen in der Konsole ausgegeben werden. Die
+Formel für die Umwandlung von Fahrenheit zu Celsius und Celsius zu Fahrenheit ist
 die folgende.
 
 - °C = (°F - 32) * 5/9 (von Fahrenheit in Celsius)
@@ -29,6 +30,21 @@ Die Applikation hat die folgenden Befehle
 - **3**: Verlauf anzeigen
 - **exit**: Applikation beenden
 
+Der Verlauf der Umwandlungen soll in diesem Format sein
+
+Celsius zu Fahrenheit
+
+> {Index der Umwandlung}. {Grad Celsius}°C -> {Grad Fahrenheit}°F
+
+Fahrenheit zu Celsius
+
+> {Index der Umwandlung}. {Grad Fahrenheit}°F -> {Grad Celsius}°C
+
+Beispiel:
+
+- 0\. 20°C -> 62.0°F
+- 1\. 123°F -> 50.55555555555556°C
+
 Für die Applikation werden die folgenden Funktionen verwendet
 
 - `input()`: Eine Eingabe vom User verlangen, als erster Parameter kann man einen Text in der
@@ -36,5 +52,6 @@ Für die Applikation werden die folgenden Funktionen verwendet
 - `int()`: Einen String wie "1" in eine Zahl umwandeln. Diese werden verwendet, da die `input()` Funktion einen String
   zurückgibt
 - `break`: Mit dem `break` Befehl kann man eine Schlaufe abbrechen, auch wenn die Kondition immer noch stimmt.
+- `return` Mit dem `return` Befehl wird ein Wert von einer Funktion zurückgegeben
 - `append()`: Mit dieser Funktion wird die Umwandlung in einer Liste gespeichert.
 
